@@ -1,0 +1,33 @@
+{
+  "name": "frontend-rule",
+  "version": "0.1.0",
+  "description": "Frontend development standards for Codex, covering directory boundaries, naming, typing, routing, state, UI, styling, constants, and engineering validation.",
+  "author": {
+    "name": "houtsous",
+    "url": "https://github.com/houtsous"
+  },
+  "repository": "https://github.com/houtsous/my-skill",
+  "license": "MIT",
+  "keywords": [
+    "frontend",
+    "react",
+    "vue",
+    "typescript",
+    "engineering-standards"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "前端开发规范",
+    "shortDescription": "统一前端目录、命名、枚举和工程化规范",
+    "longDescription": "为 Codex 提供前端项目开发规范，覆盖 React、Vue、TypeScript、Electron 渲染进程、H5 和后台管理系统中的目录职责、命名、类型、接口、状态管理、路由、样式、枚举常量、工程化协作和验证要求。",
+    "developerName": "houtsous",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/houtsous/my-skill",
+    "defaultPrompt": [
+      "使用 $frontend-rule 检查并实现前端代码"
+    ]
+  }
+}
