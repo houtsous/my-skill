@@ -1,0 +1,7 @@
+interface:
+  display_name: "前端开发规范"
+  short_description: "统一前端目录、命名、枚举和工程化规范"
+  default_prompt: "使用 $frontend-rule 检查并实现前端代码，确保目录、命名、枚举和工程化设计符合规范。"
+
+policy:
+  allow_implicit_invocation: true

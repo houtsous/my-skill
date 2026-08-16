@@ -1,0 +1,144 @@
+[2026/8/16 10:09:15] [Log] -------------------------------------------
+------------------
+[2026/8/16 10:09:15] [Log] crypto.publicDecrypt called
+------------------
+[2026/8/16 10:09:15] [Log] Key: -----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7nVoGCHqIMJyqgALEUrc
+5JJhap0+HtJqzPE04pz4y+nrOmY7/12f3HvZyyoRsxKdXTZbO0wEHFIh0cRqsuaJ
+PyaOOPbA0BsalofIAY3mRhQQ3vSf+rn3g+w0S+udWmKV9DnmJlpWqizFajU4T/E4
+5ZgMNcXt3E1ips32rdbTR0Nnen9PVITvrbJ3l6CI2BFBImZQZ2P8N+LsqfJsqyVV
+wDkt3mHAVxV7FZbfYWG+8FDSuKQHaCmvgAtChx9hwl3J6RekkqDVa6GIV13D23LS
+qdk0Jb521wFJi/V6QAK6SLBiby5gYN6zQQ5RQpjXtR53MwzTdiAzGEuKdOtrY2Me
+DwIDAQAB
+-----END PUBLIC KEY-----
+
+
+------------------
+[2026/8/16 10:09:15] [Log] Buffer (Hex): 75736572406578616d706c652e636f6d
+------------------
+[2026/8/16 10:09:15] [Log] BrowserWindow created
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("document.loadData") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("document.loadData") result: "{\"snap\":null,\"filePath\":\"E:\\\\project\\\\my-skill\\\\frontend-rule\\\\SKILL.md\",\"backups\":null,\"shouldReadFromDisk\":false,\"windowCounts\":1}"
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.getRecentFiles") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.getRecentFiles") result: {"files":[{"name":"SKILL.md","path":"E:\\project\\my-skill\\frontend-rule\\SKILL.md","date":1786846155735},{"name":"SKILL.md","path":"C:\\Users\\2025\\.agents\\skills\\ai-expert\\SKILL.md","date":1786845999558},{"name":"SKILL.md","path":"E:\\下载\\skill-creator\\skill-creator\\SKILL.md","date":1786841372858},{"name":"SKILL.md","path":"C:\\Users\\2025\\.codex\\skills\\.system\\skill-creator\\SKILL.md","date":1786841348158},{"name":"SKILL.md","path":"C:\\Users\\2025\\.agents\\skills\\event-tracking-auto\\SKILL.md","date":1786327618950},{"name":"implementation-pattern.md","path":"C:\\Users\\2025\\.agents\\skills\\event-tracking-auto\\references\\implementation-pattern.md","date":1786326559708},{"name":"MIGRATION_STATE.md","path":"C:\\Users\\2025\\Documents\\Codex\\2026-07-25\\zhe\\MIGRATION_STATE.md","date":1785070020424},{"name":"SERVER_MAINTENANCE_STANDARD.md","path":"C:\\Users\\2025\\Documents\\Codex\\2026-07-25\\zhe\\SERVER_MAINTENANCE_STANDARD.md","date":1785069845886}],"folders":[]}
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("document.getSnapWithValidation") args: [null]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("document.getSnapWithValidation") result: "{\"snap\":null,\"shouldReadFromDisk\":false}"
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("document.hasDuplicateName") args: ["SKILL.md"]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("document.hasDuplicateName") result: false
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("document.setLastSync") args: ["2026-08-16T02:09:16.514Z"]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("document.setLastSync") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.setTitle") args: ["SKILL.md - Typora"]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.setTitle") args: [null,false]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.setTitle") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("theme.setThemeSource") args: ["system"]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("theme.setThemeSource") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.put") args: ["backgroundColor","#FFFFFF"]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.put") args: ["isDarkMode",false]
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.put") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.getDownloadingDicts") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.getDownloadingDicts") result: "[]"
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.getUserDictionaryPath") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.getUserDictionaryPath") result: "C:\\Users\\2025\\AppData\\Roaming\\Typora\\typora-dictionaries"
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("setting.getUserDict") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("setting.getUserDict") result: "{}"
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.updateMenuForIsAlwaysOnTop") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.updateMenuForIsAlwaysOnTop") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("menu.updateCustomZoom") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("menu.updateCustomZoom") result: 
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .invoke("window.checkAsFocus") args: []
+------------------
+[2026/8/16 10:09:16] [Log] [IPC] .handle("window.checkAsFocus") result: 
+------------------
+[2026/8/16 10:09:17] [Log] [IPC] .invoke("setting.getKeyBinding") args: []
+------------------
+[2026/8/16 10:09:17] [Log] [IPC] .handle("setting.getKeyBinding") result: {"_useLowerCase":true}
+------------------
+[2026/8/16 10:09:18] [Log] [IPC] .invoke("app.onCloseWin") args: [null]
+------------------
+[2026/8/16 10:09:18] [Log] [IPC] .handle("app.onCloseWin") result: 
+------------------
