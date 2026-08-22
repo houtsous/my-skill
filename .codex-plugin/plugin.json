@@ -1,33 +1,36 @@
 {
-  "name": "frontend-rule",
+  "name": "my-skill",
   "version": "0.1.0",
-  "description": "Frontend development standards for Codex, covering directory boundaries, naming, typing, routing, state, UI, styling, constants, and engineering validation.",
+  "description": "A reusable skill collection for frontend engineering standards and AI large-model learning guidance.",
   "author": {
     "name": "houtsous",
-    "url": "https://gitee.com/houtsous"
+    "url": "https://github.com/houtsous"
   },
-  "repository": "https://gitee.com/houtsous/my-skill",
+  "repository": "https://github.com/houtsous/my-skill",
   "license": "MIT",
   "keywords": [
     "frontend",
     "react",
     "vue",
     "typescript",
-    "engineering-standards"
+    "engineering-standards",
+    "ai-learning",
+    "llm"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "前端开发规范",
-    "shortDescription": "统一前端目录、命名、枚举和工程化规范",
-    "longDescription": "为 Codex 提供前端项目开发规范，覆盖 React、Vue、TypeScript、Electron 渲染进程、H5 和后台管理系统中的目录职责、命名、类型、接口、状态管理、路由、样式、枚举常量、工程化协作和验证要求。",
+    "displayName": "开发与 AI 学习技能集",
+    "shortDescription": "前端工程规范与 AI 大模型学习指导",
+    "longDescription": "为 Codex 提供可复用技能：frontend-rule 统一前端项目的目录、命名、类型、接口、路由与工程化规范；ai-expert 面向程序员讲解、复习和巩固 AI 大模型知识。",
     "developerName": "houtsous",
     "category": "Productivity",
     "capabilities": [
       "Write"
     ],
-    "websiteURL": "https://gitee.com/houtsous/my-skill",
+    "websiteURL": "https://github.com/houtsous/my-skill",
     "defaultPrompt": [
-      "使用 $frontend-rule 检查并实现前端代码"
+      "使用 $frontend-rule 检查并实现前端代码",
+      "使用 $ai-expert 讲解一个 AI 大模型概念"
     ]
   }
 }

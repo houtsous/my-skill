@@ -1,64 +1,57 @@
-# frontend-rule
+# my-skill
 
-前端开发规范 Skill，用于让 AI 编码助手在 React、Vue、TypeScript、Electron 渲染进程、H5、后台管理系统等前端项目中遵循统一工程规范。
+面向 AI 编码助手的可复用 Agent Skills 集合。每个技能都以 `skills/<skill-name>/SKILL.md` 为核心入口，并提供必要的平台适配文件。
 
-## 能力范围
+## 技能列表
 
-- 目录职责与模块边界
-- 文件、类型、变量和常量命名
-- API 层、服务层和组件层边界
-- 状态管理职责划分
-- 路由 `name` 优先规范
-- 样式、主题和 UI 框架使用规范
-- 枚举常量和魔法值治理
-- Electron `main`、`preload`、`renderer` 边界
-- 工程化反思和验证要求
+| Skill | 用途 | 核心入口 |
+| --- | --- | --- |
+| `frontend-rule` | 统一前端目录、命名、类型、接口、路由、样式、枚举和工程化规范 | `skills/frontend-rule/SKILL.md` |
+| `ai-expert` | 面向程序员讲解、复习和巩固 AI 大模型知识 | `skills/ai-expert/SKILL.md` |
 
-## Codex / Skill Hub
-
-Codex 和 Skill Hub 使用以下入口：
+## 目录结构
 
 ```text
-.codex-plugin/plugin.json
-skills/frontend-rule/SKILL.md
-skills/frontend-rule/agents/openai.yaml
+.
+├── .claude/skills/          # Claude 项目 skill 适配入口
+│   ├── ai-expert/
+│   └── frontend-rule/
+├── .codex-plugin/           # Codex 插件清单
+├── .trae/rules/             # Trae 规则适配入口
+├── skills/                  # 平台无关的核心技能目录
+│   ├── ai-expert/
+│   │   ├── agents/openai.yaml
+│   │   └── SKILL.md
+│   └── frontend-rule/
+│       ├── agents/openai.yaml
+│       └── SKILL.md
+├── LICENSE
+└── README.md
 ```
 
-使用示例：
+## 使用方式
+
+Codex / Skill Hub / 魔搭平台使用 `skills/` 下的标准技能目录。每个技能至少包含带 YAML frontmatter 的 `SKILL.md`；`agents/openai.yaml` 提供 Codex 界面元数据。
 
 ```text
 使用 $frontend-rule 检查并实现前端代码，确保目录、命名、枚举和工程化设计符合规范。
+
+使用 $ai-expert 为有前端开发基础的学习者解释 RAG，并给出正例、反例和简短回顾。
 ```
 
-## Claude
+Claude 和 Trae 的文件只负责平台发现与转发，核心内容不重复维护：
 
-Claude 使用以下项目 skill 入口：
+- Claude：`.claude/skills/<skill-name>/SKILL.md`
+- Trae：`.trae/rules/<skill-name>.md`
+- 核心规则：`skills/<skill-name>/SKILL.md`
 
-```text
-.claude/skills/frontend-rule/SKILL.md
-```
+如果适配入口与核心规则冲突，以核心 `SKILL.md` 为准。
 
-该文件只作为 Claude 适配入口，核心规则仍以 `skills/frontend-rule/SKILL.md` 为准。
+## 发布
 
-## Trae
-
-Trae 使用以下规则入口：
-
-```text
-.trae/rules/frontend-rule.md
-```
-
-该文件只作为 Trae 适配入口，核心规则仍以 `skills/frontend-rule/SKILL.md` 为准。
-
-## 维护原则
-
-核心规则只维护在：
-
-```text
-skills/frontend-rule/SKILL.md
-```
-
-其他平台目录只放适配入口，避免多份规则内容不一致。
+- GitHub：发布整个仓库，保留根目录的许可证、说明文件和平台适配目录。
+- 魔搭 Skills：选择需要发布的单个 `skills/<skill-name>/` 目录作为技能包；入口文件必须是该目录下的 `SKILL.md`。
+- 发布前不要把日志、构建产物、编辑器临时文件或密钥放入技能目录。
 
 ## License
 

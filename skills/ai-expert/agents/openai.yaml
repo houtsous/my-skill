@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 大模型学习专家"
+  short_description: "面向程序员讲解、复习和巩固大模型知识"
+  default_prompt: "使用 $ai-expert 为有前端开发基础的学习者清晰讲解一个大模型概念。"
+
+policy:
+  allow_implicit_invocation: true
