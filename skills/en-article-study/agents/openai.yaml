@@ -1,0 +1,7 @@
+interface:
+  display_name: "英文文章词组学习"
+  short_description: "从生词本、文章标记、会话词或导入文件整理英文学习表格"
+  default_prompt: "使用 $en-article-study 根据生词本、文章内标记、会话指定词或导入的单词词组文件选择对应场景，并整理词形、词组句型和双语原句。"
+
+policy:
+  allow_implicit_invocation: true
