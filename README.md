@@ -9,6 +9,7 @@
 | `frontend-rule` | 统一前端目录、命名、类型、接口、路由、样式、枚举和工程化规范 | `skills/frontend-rule/SKILL.md` |
 | `ai-expert` | 面向程序员讲解、复习和巩固 AI 大模型知识 | `skills/ai-expert/SKILL.md` |
 | `en-article-study` | 从英文文章或截图提取词组、sb/sth 句型、释义与原文例句 | `skills/en-article-study/SKILL.md` |
+| `local-env-manage` | 向 AI 提供可自定义的本地目录用途映射，支持用自然语言或 JSON 查询和修改配置 | `skills/local-env-manage/SKILL.md` |
 
 ## 目录结构
 
@@ -27,6 +28,10 @@
 │   ├── en-article-study/
 │   │   ├── agents/openai.yaml
 │   │   └── SKILL.md
+│   ├── local-env-manage/
+│   │   ├── agents/openai.yaml
+│   │   ├── scripts/update-config.ps1
+│   │   └── SKILL.md
 │   └── frontend-rule/
 │       ├── agents/openai.yaml
 │       └── SKILL.md
@@ -44,6 +49,8 @@ Codex / Skill Hub / 魔搭平台使用 `skills/` 下的标准技能目录。每�
 使用 $ai-expert 为有前端开发基础的学习者解释 RAG，并给出正例、反例和简短回顾。
 
 使用 $en-article-study 从英文文章或截图中提取值得学习的词组，并整理为 sb/sth 句型学习表。
+
+使用 $local-env-manage 读取我的最新目录用途配置，并按正确位置创建、下载、安装或缓存内容；目录配置可以使用自然语言或 JSON 调整。
 ```
 
 Claude 和 Trae 的文件只负责平台发现与转发，核心内容不重复维护：

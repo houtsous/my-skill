@@ -1,0 +1,7 @@
+interface:
+  display_name: "Windows 本地开发环境目录管理"
+  short_description: "让 AI 按用途使用可自定义的 Windows 本地目录"
+  default_prompt: "使用 $local-env-manage 读取我的最新目录用途配置；支持自然语言或 JSON 查询和修改，并按正确位置创建、下载、安装或缓存内容。"
+
+policy:
+  allow_implicit_invocation: true
