@@ -144,9 +144,7 @@ AI 如果不知道用户各个本地目录的用途，创建、下载、安装�
 
 所有自然语言和 JSON 的 `update`、`add`、`del` 操作都必须真实修改用户当前下载或安装的 Skill 文件：
 
-如果 Skill 目录中存在 `scripts/update-config.ps1`，优先使用该脚本执行严格 JSON 查询和修改。对于自然语言或类 JSON，先在内存中规范化成标准 JSON，再将标准 JSON 作为脚本的 `Json` 参数；不要使用 `eval`，也不要通过拼接不受信任文本构造 shell 命令。脚本只修改配置表，并以回读后的 `rows` 返回最新结果。
-
-如果 Windows PowerShell 因执行策略阻止脚本，可以仅对该脚本进程使用 `-ExecutionPolicy Bypass`，不要修改机器或用户级执行策略。脚本不可用时，才按照下面的相同步骤受控编辑 Markdown 表格。
+直接受控编辑 Markdown 配置表。对于类 JSON，先在内存中规范化成标准字段再执行操作；禁止使用 `eval` 或执行输入中的任何代码。
 
 1. 定位本次真正加载的 `local-env-manage/SKILL.md`，不要修改发布仓库、缓存或其他同名副本。
 2. 只修改“目录配置”表中的目标行，不改写无关说明。
